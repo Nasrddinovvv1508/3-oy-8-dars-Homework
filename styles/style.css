@@ -1,0 +1,639 @@
+    /* General styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.full_wrapper {
+    max-width: 1600px;
+    width: 100%;
+    background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.20) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
+    background-image: url(../img/main_img.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Main styles */
+.main_container {
+    text-align: center;
+    padding: 120px 0px 45px 0px;
+}
+
+.main_title {
+    margin-bottom: 120px;
+}
+.main_title h2 {
+    /* width: 446px; */
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    text-transform: uppercase;
+}
+
+.main_title p {
+    width: 537px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    opacity: 0.8;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.main_title button {
+    background:  #AE7B3C;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px 56px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+.main_title button:hover {
+    background:  #865416;
+}
+
+.main_pages {
+    padding-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow_images {
+    display: flex;
+    gap: 25px;
+}
+
+.arrow_images img {
+    cursor: pointer;
+}
+
+.pages {
+    display: flex;
+    gap: 15px;
+}
+
+.pages a {
+    text-decoration: none;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    padding: 8px 11px;
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+}
+
+    /* Cards styles */
+.cards_secton {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card2 {
+    border-right: 1px solid rgba(40, 43, 34, 0.3);
+}
+
+.cards_secton h1 {
+    text-align: center;
+    color: #282B22;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.profession_card {
+    width: 384px;
+    padding: 0px 30px;
+    border-left: 1px solid rgba(40, 43, 34, 0.3);
+}
+
+.profession_card span {
+    color: #282B22;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 24px */
+    opacity: 0.5;
+}
+
+.profession_card h2 {
+    color:  #3D4A39;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+    /* Hero styles */
+.hero_background {
+    background:  #3D4A39;
+}
+
+.hero_section {
+    padding: 100px 71px 100px 133px;
+    margin-bottom: 100px;
+}
+
+.hero_section p {
+    text-align: center;
+    color:  #FFF;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; 
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.hero_card {
+    width: 278px;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+}
+
+.hero_cards h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    opacity: 0.5;
+}
+
+.cards_part1, .cards_part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_cards {
+    /* width: 996px; */
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+    /* Ukraina residence section styles */
+.ukraina_residence {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.ukraina_residence .part1 {
+    display: flex;
+    align-items: center;
+    gap: 107px;
+    margin-bottom: 61px;
+}
+
+.ukraina_residence .part1 p {
+    width: 814px;
+    color: var(--, #282B22);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 46.8px */
+}
+
+.ukraina_residence .part2 {
+    width: 926px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* gap: 120px; */
+    margin: 0px auto;
+    padding: 35px 33px;
+    border-top: 1px solid rgba(40, 43, 34, 0.2);
+    border-bottom: 1px solid rgba(40, 43, 34, 0.2);
+}
+
+.ukraina_residence .part2 p {
+    width: 400px;
+    color: var(--, #282B22);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    opacity: 0.8;
+}
+
+.ukraina_residence .part2 .paragraph1 {
+    border-right: 1px solid rgba(40, 43, 34, 0.2);
+    padding-right: 60px ;
+}
+
+.ukraina_residence .part2 .paragraph2 {
+    padding-left: 60px ;
+}
+
+.ukraina_residence .bad_img {
+    position: absolute;
+    right: 0px;
+    bottom: 110px;
+}
+
+    /* Advantages */
+.advantages {
+    position: relative;
+    margin-bottom: 140px;
+}
+    
+.advantages h1{
+    color: var(--, #282B22);
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.type_advantages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(40, 43, 34, 0.2);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.type_advantages .advantages_number {
+    color: var(--, #282B22);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    opacity: 0.3;
+}
+
+.advantages_title {
+    border-left: 1px solid rgba(40, 43, 34, 0.2);
+    padding-left: 40px;
+}
+
+.advantages_title h2 {
+    color: var(--, #282B22);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin-bottom: 10px;
+}
+
+.type_advantages .head2 {
+    color:  #AE7B3C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+}
+
+.advantages_number .span {
+    color:  #573103;
+}
+
+.advantages_title p {
+    width: 471px;
+    color: var(--, #282B22);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; 
+}
+
+.last_type {
+    border-bottom: 1px solid rgba(40, 43, 34, 0.2);
+}
+
+.advantages img {
+    width: 340px;
+    height: 240px;
+    position: absolute;
+    left: 144px;
+    bottom: 342px;
+}
+
+.login {
+    width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.login form {
+    padding: 100px 187px 100px 200px;
+    background: #3D4A39;
+    height: 100%;
+}
+
+.login form h2 {
+    width: 413px;
+    color: #FFF;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 57.5px */
+    text-transform: uppercase;
+}
+
+.login form p {
+    width: 306px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; 
+    opacity: 0.8;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.login form .name, .number {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+}
+
+form .number {
+    margin-bottom: 25px;
+}
+
+form .file {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+
+form .file span {
+    color : white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+}
+
+form button {
+    width: 300px;
+    background: #AE7B3C;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px 56px;
+    border: none;
+    cursor: pointer;
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+
+form input::placeholder {
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; 
+    opacity: 0.5;
+}
+
+form input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 95%;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form h3 {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    opacity: 0.8;
+    margin-top: 26px;
+}
+
+.bg_image img {
+    height: 681px;
+}
+
+    /* Media queries */
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .profession_card {
+        width: 310px;
+        padding: 0px 20px;
+        border-left: 1px solid rgba(40, 43, 34, 0.3);
+    }
+    .profession_card:last-child {
+        /* border-right: 1px solid rgba(40, 43, 34, 0.3); */
+    }
+
+    .profession_card img {
+        width: 280px;
+        height: 320px;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    .container {
+        max-width: 600px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cards_secton h1 {
+        margin-bottom: 85px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .profession_card {
+        width: 47%;
+    }
+
+    .profession_card img {
+        width: 250px;
+        height: 320px;
+    }
+
+    .profession_card h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .cards_part1, .cards_part2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero_section p {
+        color: #FFF;
+        font-size: 36px;
+    }
+
+    .hero_card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero_card h3 {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; 
+        opacity: 0.5;
+    }
+
+
+    @media screen and (max-width: 320px) {
+        .container {
+            max-width: 300px;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .main_title h2 {
+            font-size: 28px;
+            width: 296px;
+        }
+
+        .main_title p {
+            font-size: 16px;
+            width: 300px;
+        }
+
+        .main_pages {
+            text-align: center;
+        }
+
+        .arrow_images img {
+            display: none;
+        }
+
+        .pages a {
+            text-align: center;
+        }
+
+        .cards_secton h1 {
+            width: 295px;
+            font-size: 28px;
+        }
+
+        .profession_card {
+            width: 95%;
+            border: none;
+        }
+    
+        .profession_card img {
+            width: 290px;
+            height: 320px;
+        }
+
+        .profession_card span {
+            font-size: 20px;
+            /* margin-top: 50px; */
+        }
+
+        .profession_card h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .cards_part1, .cards_part2 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .hero_card {
+            width: 48%;
+        }
+
+        .hero_section p {
+            font-size: 24px;
+        }
+
+        .hero_card img {
+            width: 40px;
+        }
+
+        .hero_card h3 {
+            font-size: 18px;
+        }
+    }
+
+}
